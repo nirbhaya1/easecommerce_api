@@ -10,8 +10,8 @@ describe('Warehouse API - Complete Test Suite', function () {
   // Step 1: Login and retrieve token
   before(async function () {
     const loginPayload = {
-      username: 'demouser@easecommerce.in',
-      password: 'cE7iQPP^'
+      username: 'username',
+      password: 'password'
     };
 
     const res = await request(baseUrl)
